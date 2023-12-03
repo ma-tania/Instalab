@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    background-color: azure;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    color: cornflowerblue;
+    
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.savedata{
+    padding: 2px 20px;
+    border-radius: 10px;
+    border-color:cornflowerblue;
+    font-size: 1.5rem;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.recoverdata{
+    padding: 2px 20px;
+    border-radius: 10px;
+    border-color:cornflowerblue;
+    font-size: 1.5rem;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+}
+.list-user{
+    padding: 10px 0 5px 0;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 25px;
+}
+.name{
+color:cornflowerblue;
+font-size: 2.5rem;
+text-transform: uppercase;
+}
+.city{
+font-size: 1.5rem;
+}
+.username{
+    font-size: 1.5rem;
+}
+.img{
+    border: solid 2px #165959;
+}
+.noFriend{
+background-color: lightblue;
+}
+
+.friends{
+background-color:lightpink;
+color: white;
+}
